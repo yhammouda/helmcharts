@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  youssef_api:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-04-05T14:38:04.848886477Z"
+    description: A Helm chart for youssef API in Kubernetes
+    digest: 7a3bf60fb433845e013bbf5b63a78d5177c4ee1a399e63c0b3e27abb72b33666
+    name: youssef_api
+    type: application
+    urls:
+    - releases/youssef_api-0.1.2.tgz
+    version: 0.1.2
+  youssef_redis:
+  - apiVersion: v2
+    appVersion: 5.0.4
+    created: "2022-04-05T14:38:04.849620909Z"
+    description: A Helm chart for Redis
+    digest: 7d53f541892f52e7b378535fa6606a569f9cb04fb0bdb9f48f7803cbc91a7aad
+    name: youssef_redis
+    type: application
+    urls:
+    - releases/youssef_redis-0.3.0.tgz
+    version: 0.3.0
+generated: "2022-04-05T14:38:04.847998492Z"

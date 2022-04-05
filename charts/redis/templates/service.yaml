@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+{{ include "youssef_redis.header" . | indent 2}}
+spec:
+  ports:
+    - port: {{ include "youssef_redis.port" . }}
+  selector:
+    app: redis-{{ .Release.Name }}
+  clusterIP: None
