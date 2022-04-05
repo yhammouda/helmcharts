@@ -13,6 +13,8 @@ pages:
     paths:
       # The folder that contains the built files to be published. This
       # must be called "public".
+      - (mkdir public && cp -r . public) 
+      - cp 
       - public
 
   only:
