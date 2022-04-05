@@ -9,12 +9,11 @@ pages:
   script:
     # Specify the steps involved to build your app here
     - echo "Script work also"
+    - (mkdir public && cp -r charts index.yaml  LICENSE  others  README.md  releases public) 
   artifacts:
     paths:
       # The folder that contains the built files to be published. This
       # must be called "public".
-      - (mkdir public && cp -r charts index.yaml  LICENSE  others  README.md  releases public) 
-      - cp 
       - public
 
   only:
